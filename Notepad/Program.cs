@@ -23,10 +23,6 @@ builder.Services.AddScoped<INoteRepository, NoteRepository>()
 var connectionString = builder.Configuration.GetConnectionString("NotepadConnection");
 
 //Just in case you want to use an env var later, keep this logic flexible
-if (string.IsNullOrEmpty(connectionString))
-{
-    connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__NotepadConnection");
-}
 
 if (!string.IsNullOrEmpty(connectionString) && connectionString.StartsWith("postgres://"))
 {
