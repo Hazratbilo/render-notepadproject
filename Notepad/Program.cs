@@ -47,7 +47,7 @@ if (!string.IsNullOrEmpty(connectionString) && connectionString.StartsWith("post
     connectionString = npgsqlBuilder.ConnectionString;
 }
 
-builder.Services.AddDbContext<NoteContext >(options =>
+builder.Services.AddDbContext<NoteContext>(options =>
     options.UseNpgsql(connectionString));
 
 
@@ -56,6 +56,11 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
+}
+
+if (builder.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
 }
 
 app.UseHttpsRedirection();
@@ -69,5 +74,34 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Notes}/{action=Index}/{id?}")
     .WithStaticAssets();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<NoteContext>();
+
+    try
+    {
+        context.Database.Migrate();
+        Console.WriteLine("Database migrated successfully on startup.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Database migration failed: {ex.Message}");
+    }
+}
+
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Exception caught: {ex.Message}");
+        Console.WriteLine(ex.StackTrace);
+        throw;
+    }
+});
 
 app.Run();
