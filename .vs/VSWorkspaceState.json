@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Notepad",
+    "\\Notepad\\Controllers",
+    "\\Notepad\\Implementation",
+    "\\Notepad\\Implementation\\Services",
+    "\\Notepad\\Middleware",
+    "\\Notepad\\Models",
+    "\\Notepad\\Views"
+  ],
+  "SelectedNode": "\\Notepad\\Controllers\\NotesController.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,401 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\context\\notecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\context\\notecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Migrations\\20251202123027_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notepad\\Migrations\\20251202123027_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\notepad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\notepad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\middleware\\deviceidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\middleware\\deviceidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\notes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\notes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\implementation\\services\\noteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\implementation\\services\\noteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\models\\dtos\\note\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\models\\dtos\\note\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\notes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\notes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\notes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\notes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\interface\\repository\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\interface\\repository\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\implementation\\repository\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\implementation\\repository\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\interface\\services\\inoteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\interface\\services\\inoteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\models\\dtos\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\models\\dtos\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\notes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\notes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|c:\\users\\alatoye bilal\\source\\repos\\notepadapp\\notepad\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BF29A7-21E9-49E2-A157-A5844AE0DC6C}|Notepad\\Notepad.csproj|solutionrelative:notepad\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "Notepad\\Models\\Note.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Models\\Note.cs",
+              "RelativeToolTip": "Notepad\\Models\\Note.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:15:52.378Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251202123027_First.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Migrations\\20251202123027_First.cs",
+              "RelativeDocumentMoniker": "Notepad\\Migrations\\20251202123027_First.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Migrations\\20251202123027_First.cs",
+              "RelativeToolTip": "Notepad\\Migrations\\20251202123027_First.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T12:30:27.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\appsettings.json",
+              "RelativeDocumentMoniker": "Notepad\\appsettings.json",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\appsettings.json",
+              "RelativeToolTip": "Notepad\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-02T11:34:11.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NoteServices.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Implementation\\Services\\NoteServices.cs",
+              "RelativeDocumentMoniker": "Notepad\\Implementation\\Services\\NoteServices.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Implementation\\Services\\NoteServices.cs",
+              "RelativeToolTip": "Notepad\\Implementation\\Services\\NoteServices.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwF8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T11:14:58.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeviceIdMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Middleware\\DeviceIdMiddleWare.cs",
+              "RelativeDocumentMoniker": "Notepad\\Middleware\\DeviceIdMiddleWare.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Middleware\\DeviceIdMiddleWare.cs",
+              "RelativeToolTip": "Notepad\\Middleware\\DeviceIdMiddleWare.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T09:01:25.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Program.cs",
+              "RelativeDocumentMoniker": "Notepad\\Program.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Program.cs",
+              "RelativeToolTip": "Notepad\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAhwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:14:33.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NoteContext.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Context\\NoteContext.cs",
+              "RelativeDocumentMoniker": "Notepad\\Context\\NoteContext.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Context\\NoteContext.cs",
+              "RelativeToolTip": "Notepad\\Context\\NoteContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:37:34.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "Notepad\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "Notepad\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T09:20:31.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Notepad.csproj",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\Source\\Repos\\Notepadapp\\Notepad\\Notepad.csproj",
+              "RelativeDocumentMoniker": "Notepad\\Notepad.csproj",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\Source\\Repos\\Notepadapp\\Notepad\\Notepad.csproj",
+              "RelativeToolTip": "Notepad\\Notepad.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-02T11:14:27.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Models\\DTOs\\Note\\NoteDTO.cs",
+              "RelativeDocumentMoniker": "Notepad\\Models\\DTOs\\Note\\NoteDTO.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Models\\DTOs\\Note\\NoteDTO.cs",
+              "RelativeToolTip": "Notepad\\Models\\DTOs\\Note\\NoteDTO.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:18:49.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Notes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Index.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Notes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T16:01:26.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Notes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Create.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Notes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T10:08:58.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Notes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Edit.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Notes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:55:00.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Notes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Delete.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Notes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T18:55:05.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "INoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Interface\\Repository\\INoteRepository.cs",
+              "RelativeDocumentMoniker": "Notepad\\Interface\\Repository\\INoteRepository.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Interface\\Repository\\INoteRepository.cs",
+              "RelativeToolTip": "Notepad\\Interface\\Repository\\INoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T11:16:25.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "INoteServices.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Interface\\Services\\INoteServices.cs",
+              "RelativeDocumentMoniker": "Notepad\\Interface\\Services\\INoteServices.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Interface\\Services\\INoteServices.cs",
+              "RelativeToolTip": "Notepad\\Interface\\Services\\INoteServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T11:17:30.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Implementation\\Repository\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "Notepad\\Implementation\\Repository\\NoteRepository.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Implementation\\Repository\\NoteRepository.cs",
+              "RelativeToolTip": "Notepad\\Implementation\\Repository\\NoteRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T11:14:02.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Models\\DTOs\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Notepad\\Models\\DTOs\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Models\\DTOs\\BaseResponse.cs",
+              "RelativeToolTip": "Notepad\\Models\\DTOs\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:19:26.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Notes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Notes\\Details.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Notes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T09:04:46.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T16:08:24.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:54:43.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:54:54.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Notepad\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ALATOYE BILAL\\source\\repos\\Notepadapp\\Notepad\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Notepad\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T14:54:51.99Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
