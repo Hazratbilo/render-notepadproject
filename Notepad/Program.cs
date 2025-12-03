@@ -66,7 +66,7 @@ if (builder.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
-app.UseMiddleware<Notepad.Middleware.DeviceIdMiddleWare>();
+//app.UseMiddleware<Notepad.Middleware.DeviceIdMiddleWare>();
 
 app.MapStaticAssets();
 
