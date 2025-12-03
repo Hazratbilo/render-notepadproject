@@ -93,7 +93,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + (" (Copy)"),
                     Content = note.Content,
-                    DateCreated = DateTime.UtcNow,
+                    DateCreated = DateTime.UtcNow ,
                 };
             }
             await _noteRepository.AddNote(copy);
