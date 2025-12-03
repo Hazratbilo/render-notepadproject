@@ -28,24 +28,24 @@ if (string.IsNullOrEmpty(connectionString))
     connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__NotepadConnection");
 }
 
-if (!string.IsNullOrEmpty(connectionString) && connectionString.StartsWith("postgres://"))
-{
-    var uri = new Uri(connectionString);
-    var userInfo = uri.UserInfo.Split(':');
+//if (!string.IsNullOrEmpty(connectionString) && connectionString.StartsWith("postgres://"))
+//{
+//    var uri = new Uri(connectionString);
+//    var userInfo = uri.UserInfo.Split(':');
 
-    var npgsqlBuilder = new NpgsqlConnectionStringBuilder
-    {
-        Host = uri.Host,
-        Port = uri.Port,
-        Username = userInfo[0],
-        Password = userInfo.Length > 1 ? userInfo[1] : "",
-        Database = uri.AbsolutePath.Trim('/'),
-        SslMode = SslMode.Require,
-        TrustServerCertificate= true
-    };
+//    var npgsqlBuilder = new NpgsqlConnectionStringBuilder
+//    {
+//        Host = uri.Host,
+//        Port = uri.Port,
+//        Username = userInfo[0],
+//        Password = userInfo.Length > 1 ? userInfo[1] : "",
+//        Database = uri.AbsolutePath.Trim('/'),
+//        SslMode = SslMode.Require,
+//        TrustServerCertificate= true
+//    };
 
-    connectionString = npgsqlBuilder.ConnectionString;
-}
+//    connectionString = npgsqlBuilder.ConnectionString;
+//}
 
 builder.Services.AddDbContext<NoteContext>(options =>
     options.UseNpgsql(connectionString));
