@@ -37,7 +37,7 @@ namespace Notepad.Implementation.Services
             {
                 Tittle = request.Tittle,
                 Content = request.Content,
-                DateCreated = DateTime.Now,
+                DateCreated = DateTime.UtcNow,
                 DeviceId = request.DeviceId
             };
             var createNote = await _noteRepository.AddNote(newNote);
@@ -84,7 +84,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + "",
                     Content = note.Content,
-                    DateCreated = DateTime.Now,
+                    DateCreated = DateTime.UtcNow,
                 };
             }
             else
@@ -93,7 +93,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + (" (Copy)"),
                     Content = note.Content,
-                    DateCreated = DateTime.Now,
+                    DateCreated = DateTime.UtcNow,
                 };
             }
             await _noteRepository.AddNote(copy);
