@@ -89,11 +89,11 @@ namespace Notepad.Implementation.Services
             }
             else
             {
-                copy = new Note
+                copy = new Note 
                 {
                     Tittle = note.Tittle + (" (Copy)"),
                     Content = note.Content,
-                    DateCreated = DateTime.UtcNow ,
+                    DateCreated = DateTime.UtcNow,
                 };
             }
             await _noteRepository.AddNote(copy);
