@@ -293,5 +293,33 @@ namespace Notepad.Implementation.Services
                 DateCreated = updateNote.DateCreated,
             };
         }
+
+        public async Task<BaseResponse<IEnumerable<NoteDTO>>> GetNotesByDeviceId(string deviceId)
+        {
+            var notes = await _noteRepository.GetNotesByDeviceId(deviceId);
+            if(notes == null)
+            {
+                _logger.LogError($"No notes found for deviceId {deviceId}");
+                return new BaseResponse<IEnumerable<NoteDTO>>
+                {
+                    Message = $"No notes found for deviceId {deviceId}",
+                    Status = false,
+                };
+            }
+            _logger.LogInformation("Notes fetched successfully");
+            return new BaseResponse<IEnumerable<NoteDTO>>
+            {
+                Message = "Notes fetched successfully",
+                Status = true,
+                Data = notes.Select(notes => new NoteDTO
+                {
+                    Id = notes.Id,
+                    Tittle = notes.Tittle,
+                    Content = notes.Content,
+                    DateCreated = notes.DateCreated,
+                    DeviceId = notes.DeviceId
+                }).ToList()
+            };
+        }
     }
 }

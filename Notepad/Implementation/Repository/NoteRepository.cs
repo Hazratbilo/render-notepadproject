@@ -41,6 +41,13 @@ namespace Notepad.Implementation.Repository
             
         }
 
+        public async Task<List<Note>> GetNotesByDeviceId(string deviceId)
+        {
+           return await _context.Notes.Where(x => x.DeviceId == deviceId)
+                .OrderByDescending(x => x.DateCreated)
+               . ToListAsync();
+        }
+
         public async Task<Note> UpdateNote(Note note)
         {
             _context.Notes.Update(note);

@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Notepad.Migrations
 {
     [DbContext(typeof(NoteContext))]
-    [Migration("20251202123027_First")]
+    [Migration("20251203163448_First")]
     partial class First
     {
         /// <inheritdoc />

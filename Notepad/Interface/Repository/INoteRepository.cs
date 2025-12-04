@@ -7,8 +7,9 @@ namespace Notepad.Interface.Repository
         public Task<Note> AddNote(Note note);
         public Task<bool> DeleteNote(int id);
         public Task<Note> GetNoteById(int id);
-
+        public Task<List<Note>> GetNotesByDeviceId(string deviceId);
         Task<List<Note>> GetAllNotes();
+
 
         Task<Note> UpdateNote(Note note);
     }

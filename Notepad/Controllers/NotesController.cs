@@ -42,7 +42,7 @@ namespace Notepad.Controllers
 
 
             //var notes = await query.OrderByDescending(n => n.DateCreated).ToListAsync();
-            var allNotes = await _noteServices.GetAllNoteAsync();
+            var allNotes = await _noteServices.GetNotesByDeviceId(GetDeviceId());
             if (allNotes == null)
             {
                 ViewBag.Message = "No data found";
