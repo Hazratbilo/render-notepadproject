@@ -85,6 +85,7 @@ namespace Notepad.Implementation.Services
                     Tittle = note.Tittle + "",
                     Content = note.Content,
                     DateCreated = DateTime.UtcNow,
+                    DeviceId = note.DeviceId
                 };
             }
             else
@@ -94,6 +95,8 @@ namespace Notepad.Implementation.Services
                     Tittle = note.Tittle + (" (Copy)"),
                     Content = note.Content,
                     DateCreated = DateTime.UtcNow,
+                    DeviceId = note.DeviceId
+
                 };
             }
             await _noteRepository.AddNote(copy);
@@ -171,7 +174,7 @@ namespace Notepad.Implementation.Services
                     Id = dpt.Id,
                     Tittle = dpt.Tittle,
                     Content = dpt.Content,
-                    DateCreated = dpt.DateCreated,
+                    DateCreated = dpt.DateCreated.ToLocalTime(),
                 }).ToList()
             };
         }
@@ -316,7 +319,7 @@ namespace Notepad.Implementation.Services
                     Id = notes.Id,
                     Tittle = notes.Tittle,
                     Content = notes.Content,
-                    DateCreated = notes.DateCreated,
+                    DateCreated = notes.DateCreated.ToLocalTime(),
                     DeviceId = notes.DeviceId
                 }).ToList()
             };

@@ -38,7 +38,7 @@ namespace Notepad.Controllers
             //{
             //    var pattern = $"%{searchString}%";
             //    query = query.Where(n => EF.Functions.Like(n.Tittle, pattern));
-            //}
+            // } 
 
 
             //var notes = await query.OrderByDescending(n => n.DateCreated).ToListAsync();
