@@ -42,6 +42,9 @@ namespace Notepad.Controllers
 
 
             //var notes = await query.OrderByDescending(n => n.DateCreated).ToListAsync();
+            var utcTime = DateTime.UtcNow;
+            var localTime = TimeZoneInfo.ConvertTimeFromUtc(utcTime, TimeZoneInfo.FindSystemTimeZoneById("W. Central Africa Standard Time"));
+
             var allNotes = await _noteServices.GetNotesByDeviceId(GetDeviceId());
             if (allNotes == null)
             {

@@ -39,6 +39,7 @@ namespace Notepad.Implementation.Services
                 Content = request.Content,
                 DateCreated = DateTime.UtcNow,
                 DeviceId = request.DeviceId
+
             };
             var createNote = await _noteRepository.AddNote(newNote);
             if (createNote == null)
@@ -84,7 +85,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + "",
                     Content = note.Content,
-                    DateCreated = DateTime.UtcNow,
+                    DateCreated = LocalTimeConverter(note.DateCreated),
                     DeviceId = note.DeviceId
                 };
             }
@@ -94,7 +95,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + (" (Copy)"),
                     Content = note.Content,
-                    DateCreated = DateTime.UtcNow,
+                    DateCreated = LocalTimeConverter(note.DateCreated),
                     DeviceId = note.DeviceId
                 };
             }
@@ -173,7 +174,7 @@ namespace Notepad.Implementation.Services
                     Id = dpt.Id,
                     Tittle = dpt.Tittle,
                     Content = dpt.Content,
-                    DateCreated = dpt.DateCreated,
+                    DateCreated = LocalTimeConverter(dpt.DateCreated),
                 }).ToList()
             };
         }
@@ -200,7 +201,7 @@ namespace Notepad.Implementation.Services
                     Id = getNote.Id,
                     Tittle = getNote.Tittle,
                     Content = getNote.Content,
-                    DateCreated = getNote.DateCreated,
+                    DateCreated = LocalTimeConverter(getNote.DateCreated),
                 }
             };
         }
@@ -220,7 +221,7 @@ namespace Notepad.Implementation.Services
                 Id = getNote.Id,
                 Tittle = getNote.Tittle,
                 Content = getNote.Content,
-                DateCreated = getNote.DateCreated,
+                DateCreated = LocalTimeConverter(getNote.DateCreated),
             };
         }
 
@@ -292,7 +293,7 @@ namespace Notepad.Implementation.Services
                 Id = updateNote.Id,
                 Tittle = updateNote.Tittle,
                 Content = updateNote.Content,
-                DateCreated = updateNote.DateCreated,
+                DateCreated = LocalTimeConverter(updateNote.DateCreated),
             };
         }
 
@@ -318,10 +319,17 @@ namespace Notepad.Implementation.Services
                     Id = notes.Id,
                     Tittle = notes.Tittle,
                     Content = notes.Content,
-                    DateCreated = notes.DateCreated,
+                    DateCreated = LocalTimeConverter(notes.DateCreated),
                     DeviceId = notes.DeviceId
                 }).ToList()
             };
         }
+
+        private DateTime LocalTimeConverter(DateTime utcTime)
+        {
+            return TimeZoneInfo.ConvertTimeFromUtc(utcTime, TimeZoneInfo.FindSystemTimeZoneById("W. Central Africa Standard Time"));
+            
+        }
+
     }
 }
