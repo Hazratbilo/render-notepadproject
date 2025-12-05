@@ -2,6 +2,7 @@
 using Notepad.Context;
 using Notepad.Interface.Repository;
 using Notepad.Models;
+using Org.BouncyCastle.Pqc.Crypto.Lms;
 
 namespace Notepad.Implementation.Repository
 {
@@ -35,6 +36,13 @@ namespace Notepad.Implementation.Repository
             return note;
         }
 
+
+        public async Task<Note> GetItemsByIdAsync(int id)
+        {
+            return await _context.Set<Note>()
+               .AsNoTracking()
+               .FirstOrDefaultAsync(x => x.Id == id);
+        }
         public async Task<Note> GetNoteById(int id)
         {
             return await _context.Notes.FirstOrDefaultAsync(x => x.Id == id);

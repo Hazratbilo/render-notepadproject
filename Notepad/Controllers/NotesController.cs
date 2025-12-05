@@ -1,4 +1,5 @@
-﻿using iText.Kernel.Pdf;
+﻿using iText.Commons.Bouncycastle.Asn1.X509;
+using iText.Kernel.Pdf;
 using iText.Layout;
 using iText.Layout.Element;
 using Microsoft.AspNetCore.Mvc;
@@ -32,28 +33,26 @@ namespace Notepad.Controllers
         }
         public async Task<IActionResult> Index(string searchString)
         {
-            //var query = _Context.Notes.AsQueryable();
-
-            //if (!string.IsNullOrWhiteSpace(searchString))
-            //{
-            //    var pattern = $"%{searchString}%";
-            //    query = query.Where(n => EF.Functions.Like(n.Tittle, pattern));
-            // } 
-
-
-            //var notes = await query.OrderByDescending(n => n.DateCreated).ToListAsync();
-            var utcTime = DateTime.UtcNow;
-            var localTime = TimeZoneInfo.ConvertTimeFromUtc(utcTime, TimeZoneInfo.FindSystemTimeZoneById("W. Central Africa Standard Time"));
-
+          
             var allNotes = await _noteServices.GetNotesByDeviceId(GetDeviceId());
+
             if (allNotes == null)
             {
                 ViewBag.Message = "No data found";
+                return View(new List<Note>());
             }
 
+       
+            if (!string.IsNullOrWhiteSpace(searchString))
+            {
+                allNotes.Data = allNotes.Data
+                    .Where(n => n.Tittle.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
             return View(allNotes);
-            
         }
+
+
 
         public IActionResult Create() => View();
 

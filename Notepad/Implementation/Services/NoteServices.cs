@@ -331,5 +331,34 @@ namespace Notepad.Implementation.Services
             
         }
 
+        public async Task<BaseResponse<IEnumerable<NoteDTO>>> GetNote(CancellationToken token)
+        {
+            var getnotess = await _noteRepository.GetAllNotes();
+            if (getnotess == null)
+            {
+                _logger.LogError("notes couldn't be found");
+                return new BaseResponse<IEnumerable<NoteDTO>>
+                {
+                    Message = "note couldn't be found",
+                    Status = false
+                };
+            }
+            return new BaseResponse<IEnumerable<NoteDTO>>
+            {
+                Message = "note Gotten Successfully",
+                Status = true,
+                Data = getnotess.Select(n => new NoteDTO
+                {
+                    Id = n.Id,
+                    Tittle = n.Tittle,
+                    Content = n.Content,
+                    DateCreated = DateTime.UtcNow,
+                    DeviceId = n.DeviceId
+                }).ToList()
+            };
+        }
+
+
     }
-}
+    }
+

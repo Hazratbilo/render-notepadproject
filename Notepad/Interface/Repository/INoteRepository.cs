@@ -9,6 +9,7 @@ namespace Notepad.Interface.Repository
         public Task<Note> GetNoteById(int id);
         public Task<List<Note>> GetNotesByDeviceId(string deviceId);
         Task<List<Note>> GetAllNotes();
+        Task<Note> GetItemsByIdAsync(int id);
 
 
         Task<Note> UpdateNote(Note note);
