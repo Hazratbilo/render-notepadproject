@@ -85,7 +85,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + "",
                     Content = note.Content,
-                    DateCreated = LocalTimeConverter(note.DateCreated),
+                    DateCreated = DateTime.UtcNow,
                     DeviceId = note.DeviceId
                 };
             }
@@ -95,7 +95,7 @@ namespace Notepad.Implementation.Services
                 {
                     Tittle = note.Tittle + (" (Copy)"),
                     Content = note.Content,
-                    DateCreated = LocalTimeConverter(note.DateCreated),
+                    DateCreated = DateTime.UtcNow,
                     DeviceId = note.DeviceId
                 };
             }
